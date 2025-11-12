@@ -10,9 +10,20 @@ namespace madaillesopdracht
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("peak"); 
+
+
+
+            Console.WriteLine("yo");
+            Console.WriteLine("hoe heet jij?: ");
             string Input = Console.ReadLine();
-            Console.WriteLine(Input);
+            Console.WriteLine("hoe oud ben jij??: ");
+            int leeftijdInput = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Hoi " + Input + " je bent " + leeftijdInput + " jaar oud");
+
+            
+
+
+
         }
     }
 }
