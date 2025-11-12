@@ -10,6 +10,9 @@ namespace madaillesopdracht
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("peak"); 
+            string Input = Console.ReadLine();
+            Console.WriteLine(Input);
         }
     }
 }
